@@ -1,6 +1,6 @@
-from things import calcfuel, readfile
+from things import calcfuel, readfile1
 
-inpt = readfile('1.txt')
+inpt = readfile1('1.txt')
 sm = 0
 for a in inpt:
     sm += calcfuel(float(a[:-1]))
