@@ -117,7 +117,7 @@ instruction = {
 }
 
 
-def part1():
+def part12():
     global pointer
     while running:
         opcode, type1, type2, type3, pnum = getinstruction(inpt[pointer])
@@ -125,4 +125,4 @@ def part1():
             pointer += pnum + 1
 
 
-part1()
+part12()
